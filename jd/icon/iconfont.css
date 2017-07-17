@@ -1,10 +1,10 @@
 
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1500111250249'); /* IE9*/
-  src: url('iconfont.eot?t=1500111250249#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1500111250249') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1500111250249') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1500111250249#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1500163103191'); /* IE9*/
+  src: url('iconfont.eot?t=1500163103191#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1500163103191') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1500163103191') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1500163103191#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -34,6 +34,8 @@
 .icon-jiudian:before { content: "\e611"; }
 
 .icon-jiudian-l:before { content: "\e602"; }
+
+.icon-xiayige:before { content: "\e68c"; }
 
 .icon-huafei:before { content: "\e638"; }
 

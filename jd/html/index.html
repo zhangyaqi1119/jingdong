@@ -11,14 +11,18 @@
     <link rel="icon" href="../img/icon/2017-07-13_102041.png">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../icon/iconfont.css">
+    <link rel="stylesheet" href="../assets/countdown/jquery.countdown.css">
     <link href="https://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/index.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 </head>
 <body>
 <!--最顶部的图片 开始-->
     <div class="top_nav">
         <div class="top_nav_container">
-            <a href="javascript:void()"><img src="../img/top_nav/2017-07-13_103358.png" alt=""></a>
+            <a href="javascript:void(27777q)"><img src="../img/top_nav/2017-07-13_103358.png" alt=""></a>
             <div class="close">×</div>
         </div>
     </div>
@@ -278,16 +282,259 @@
 <!--seckill开始-->
     <div class="seckill">
         <div class="seckill_content">
-            <div class="seckill_content_top"></div>
+            <div class="seckill_content_top">
+                <div class="seckill_content_top_left">
+                    <h3>京东秒杀</h3>
+                    <a href="">总有你想不到的低价</a>
+                    <i class="icon iconfont icon-xiayige"></i>
+                </div>
+                <div class="seckill_content_top_right">
+                    <div id="countdown"></div>
+                    <p id="note"></p>
+                </div>
+            </div>
             <div class="seckill_content_box">
-
+                <div class="seckill_content_box_left_wrapper">
+                    <div class="seckill_content_box_left_wrapper_content">
+                        <div class="seckill_next">
+                            〉
+                        </div>
+                        <div class="seckill_pre">
+                            〈
+                        </div>
+                        <ul>
+                            <li>
+                            <a href="">
+                                <img src="../img/seckill/1.jpg" alt="TP-LINK TL-WDR5600 11AC智能双频无线路由器 大户型家用穿墙" title="TP-LINK TL-WDR5600 11AC智能双频无线路由器 大户型家用穿墙">
+                                <div class="box-shadow"></div>
+                                <p class="seckill_content_p_title">TP-LINK TL-WDR5600 11AC智能双频无线路由器 大户型家用穿墙</p>
+                                <p class="seckill_content_p_price">
+                                        <span class="seckill_content_p_price_span1">
+                                            <i>￥</i>
+                                            119.00
+                                        </span>
+                                    <span class="seckill_content_p_price_span2">
+                                            <i>￥</i>
+                                            <del>149.00</del>
+                                        </span>
+                                </p>
+                            </a>
+                        </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/seckill/2.jpg" alt="【京东超市】福临门 苏北米 软香稻 大米 中粮出品 5kg" title="【京东超市】福临门 苏北米 软香稻 大米 中粮出品 5kg">
+                                    <div class="box-shadow"></div>
+                                    <p class="seckill_content_p_title">【京东超市】福临门 苏北米 软香稻 大米 中粮出品 5kg</p>
+                                    <p class="seckill_content_p_price">
+                                        <span class="seckill_content_p_price_span1">
+                                            <i>￥</i>
+                                            26.80
+                                        </span>
+                                        <span class="seckill_content_p_price_span2">
+                                            <i>￥</i>
+                                            <del>39.00</del>
+                                        </span>
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/seckill/3.jpg" alt="【京东超市】力士（LUX）精油香氛沐浴露套装 幽莲魅肤1L+樱沁恬韵1L送 幽莲魅肤350ml+恒永慕爱100mlx2" title="【京东超市】力士（LUX）精油香氛沐浴露套装 幽莲魅肤1L+樱沁恬韵1L送 幽莲魅肤350ml+恒永慕爱100mlx2">
+                                    <div class="box-shadow"></div>
+                                    <p class="seckill_content_p_title">【京东超市】力士（LUX）精油香氛沐浴露套装 幽莲魅肤1L+樱</p>
+                                    <p class="seckill_content_p_price">
+                                        <span class="seckill_content_p_price_span1">
+                                            <i>￥</i>
+                                            67.90
+                                        </span>
+                                        <span class="seckill_content_p_price_span2">
+                                            <i>￥</i>
+                                            <del>155.70</del>
+                                        </span>
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/seckill/4.jpg" alt="神画（PIQS）大威 家用 投影机 投影仪（800P高清分辨率 1100流明 隔空触控 自动调焦 梯形校正）" title="神画（PIQS）大威 家用 投影机 投影仪（800P高清分辨率 1100流明 隔空触控 自动调焦 梯形校正）">
+                                    <div class="box-shadow"></div>
+                                    <p class="seckill_content_p_title">神画（PIQS）大威 家用 投影机 投影仪（800P高清分辨率 1100流明 隔空</p>
+                                    <p class="seckill_content_p_price">
+                                        <span class="seckill_content_p_price_span1">
+                                            <i>￥</i>
+                                            3499.00
+                                        </span>
+                                        <span class="seckill_content_p_price_span2">
+                                            <i>￥</i>
+                                            <del>3799.00</del>
+                                        </span>
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/seckill/5.jpg" alt="恒都 乌拉圭牛腩块 1000g/袋 草饲牛肉" title="恒都 乌拉圭牛腩块 1000g/袋 草饲牛肉">
+                                    <div class="box-shadow"></div>
+                                    <p class="seckill_content_p_title">恒都 乌拉圭牛腩块 1000g/袋 草饲牛肉</p>
+                                    <p class="seckill_content_p_price">
+                                        <span class="seckill_content_p_price_span1">
+                                            <i>￥</i>
+                                            42.00
+                                        </span>
+                                        <span class="seckill_content_p_price_span2">
+                                            <i>￥</i>
+                                            <del>59.00</del>
+                                        </span>
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/seckill/6.jpg" alt="逆世界 23万跑分四核/GTX1050 2G独显游戏组装办公电脑主机DIY台式机 V5测透 套餐一17万跑分/8G内存/120G固态硬盘" title="逆世界 23万跑分四核/GTX1050 2G独显游戏组装办公电脑主机DIY台式机 V5测透 套餐一17万跑分/8G内存/120G固态硬盘">
+                                    <div class="box-shadow"></div>
+                                    <p class="seckill_content_p_title">逆世界 23万跑分四核/GTX1050 2G独显游戏组装办公电脑主机</p>
+                                    <p class="seckill_content_p_price">
+                                        <span class="seckill_content_p_price_span1">
+                                            <i>￥</i>
+                                            1499.00
+                                        </span>
+                                        <span class="seckill_content_p_price_span2">
+                                            <i>￥</i>
+                                            <del>1999.00</del>
+                                        </span>
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/seckill/7.jpg" alt="惠人（HUROM）HU26RG3L 原汁机低速榨汁机家用多功能新三代" title="惠人（HUROM）HU26RG3L 原汁机低速榨汁机家用多功能新三代">
+                                    <div class="box-shadow"></div>
+                                    <p class="seckill_content_p_title">惠人（HUROM）HU26RG3L 原汁机低速榨汁机家用多功能新三代</p>
+                                    <p class="seckill_content_p_price">
+                                        <span class="seckill_content_p_price_span1">
+                                            <i>￥</i>
+                                            2598.00
+                                        </span>
+                                        <span class="seckill_content_p_price_span2">
+                                            <i>￥</i>
+                                            <del>2999.00</del>
+                                        </span>
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/seckill/8.jpg" alt="德业（Deye）DYD-E12A3 除湿机/抽湿机/除湿器 新升级节能除湿、干衣、净化一体机" title="德业（Deye）DYD-E12A3 除湿机/抽湿机/除湿器 新升级节能除湿、干衣、净化一体机">
+                                    <div class="box-shadow"></div>
+                                    <p class="seckill_content_p_title">德业（Deye）DYD-E12A3 除湿机/抽湿机/除湿器 新升级节能除湿、干衣、净化一体机</p>
+                                    <p class="seckill_content_p_price">
+                                        <span class="seckill_content_p_price_span1">
+                                            <i>￥</i>
+                                            618.00
+                                        </span>
+                                        <span class="seckill_content_p_price_span2">
+                                            <i>￥</i>
+                                            <del>1399.00</del>
+                                        </span>
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/seckill/9.jpg" alt="奔腾（POVOS）电吹风机 PH1602C 家用大功率 可折叠吹风筒 送女朋友礼物 1400W" title="奔腾（POVOS）电吹风机 PH1602C 家用大功率 可折叠吹风筒 送女朋友礼物 1400W">
+                                    <div class="box-shadow"></div>
+                                    <p class="seckill_content_p_title">奔腾（POVOS）电吹风机 PH1602C 家用大功率 可折叠吹风筒 送女朋友礼物</p>
+                                    <p class="seckill_content_p_price">
+                                        <span class="seckill_content_p_price_span1">
+                                            <i>￥</i>
+                                            29.90
+                                        </span>
+                                        <span class="seckill_content_p_price_span2">
+                                            <i>￥</i>
+                                            <del>39.00</del>
+                                        </span>
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/seckill/10.jpg" alt="乔丹男鞋2017年新款跑步鞋休闲透气运动鞋耐磨时尚跑鞋 黑色/岩石灰 42" title="乔丹男鞋2017年新款跑步鞋休闲透气运动鞋耐磨时尚跑鞋 黑色/岩石灰 42">
+                                    <div class="box-shadow"></div>
+                                    <p class="seckill_content_p_title">乔丹男鞋2017年新款跑步鞋休闲透气运动鞋耐磨时尚跑鞋 黑色</p>
+                                    <p class="seckill_content_p_price">
+                                        <span class="seckill_content_p_price_span1">
+                                            <i>￥</i>
+                                            159.00
+                                        </span>
+                                        <span class="seckill_content_p_price_span2">
+                                            <i>￥</i>
+                                            <del>299.00</del>
+                                        </span>
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="seckill_content_box_right_wrapper_content">
+                    <div  class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="../img/seckill/11.jpg" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="../img/seckill/12.jpg" alt="...">
+                            </div>
+                        </div>
+                        <!-- Controls -->
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
 <!--seckill结束-->
+<!--fbt开始-->
+    <div class="fbtz">
+        <div class="fbtz_content">
+            <div class="fbtz_content_detail">
+                <div class="fbtz_content_detail_top">
+                    <h3>发现好货</h3>
+                    <a href="">
+                        发现品质生活
+                        <i class="icon iconfont icon-xiayige"></i
+                            ]]]]]]]]]]]]]]]]]]]]]]]]]]]
+            </div>
+            <div class="fbtz_content_detail">
+                <div class="fbtz_content_detail_top">
+                    <h3>会买专辑</h3>
+                    <a href="">
+                        甄选优质好物
+                        <i class="icon iconfont icon-xiayige"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="fbtz_content_detail">
+                <div class="fbtz_content_detail_top">
+                    <h3>排行榜</h3>
+                    <a href="">
+                        专属你的购物指南
+                        <i class="icon iconfont icon-xiayige"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--fbt结束-->
     <script src="../js/jquery-1.12.4.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="../assets/countdown/jquery.countdown.js"></script>
+    <script src="../assets/js/script.js"></script>
     <script src="../js/index.js"></script>
 </body>
 </html>
